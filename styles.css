@@ -5,15 +5,25 @@
 }
 
 .primary-header-section {
-    border-bottom: 1px solid black;
     display: flex;
     justify-content: flex-end;
-    margin: 0.4em;
-    padding: 0.5em;
+    margin: 0.2em;
+    padding: 0.1em;
 }
 
 .social-icon {
-    margin:8px;
-    padding:10px;
-    width: 50px;
+    margin:5px;
+    padding:5px;
+    width: 45px;
+}
+
+.navigation-section {
+    background-color: orange;
+    height: 225px;
+
+}
+
+.company-logo {
+    width: 210px;
+    margin: 0.4em;
 }
