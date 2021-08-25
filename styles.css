@@ -37,7 +37,8 @@ ul {
 
 
 li {
-    margin: 20px;
+    margin: 15px;
+    margin-bottom: 3px;
     list-style-type: none;
     font-size: 18px;
 }
