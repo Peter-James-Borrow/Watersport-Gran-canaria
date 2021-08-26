@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 * {
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
    
@@ -7,28 +9,22 @@
 
 .primary-header-section {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
+    align-items: flex-end;
     background-color: white;
     margin: 0.1em;
     padding: 0.1em;
 }
 
 .social-icon {
-    margin:5px;
     padding:4px;
     width: 45px;
 }
 
-.navigation-section {
-    display: flex;
-    justify-content: space-between;
-    height: 7em;
-
-}
-
 .company-logo {
     width: 6em;
-    margin: 0.4em;
+    margin-top: 20px;
+    margin-left: 4em;
     border-radius: 50%;
 }
 
@@ -38,12 +34,10 @@ a {
 
 ul {
     display: flex;
-    align-items: flex-end;
-    
+    justify-content: flex-end;  
 }
 
-
-li {
+ li {
     margin: 15px;
     margin-bottom: 3px;
     list-style-type: none;
