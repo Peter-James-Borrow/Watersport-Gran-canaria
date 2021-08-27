@@ -2,47 +2,84 @@
 * {
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+    font-weight: 400;
     margin: 0;
     padding: 0;
-   
+    
 }
 
 .primary-header-section {
-    display: flex;
-    justify-content: space-between;
     align-items: flex-end;
-    background-color: white;
+    border-bottom: lightgray 1px solid;
+    display: flex;
+    height: 9em;
+    justify-content: space-between;
     margin: 0.1em;
+    opacity: 0.5;
     padding: 0.1em;
+    
 }
 
-.social-icon {
-    padding:4px;
-    width: 45px;
+.primary-header-section:hover {
+    background-color:#009dc4;
 }
 
-.company-logo {
-    width: 6em;
-    margin-top: 20px;
-    margin-left: 4em;
-    border-radius: 50%;
-}
 
 a {
     text-decoration: none;
+    color: black;
+    
 }
-
+    
 ul {
-    display: flex;
-    justify-content: flex-end;  
+    display: flex; 
 }
 
- li {
+li {
     margin: 15px;
     margin-bottom: 3px;
     list-style-type: none;
-    font-size: 18px;
-    color: black;
+    font-size: 16px;
+    text-transform: uppercase;
 }
+
+.main-section {
+   display:flex;
+   justify-content: center;
+   width: 100%;
+
+   
+}
+   
+.courses-cards {
+    justify-content: space-between;
+    width: 300px;
+    height: 400px;
+    margin: 20px;
+    border-radius: 20px;
+    border: lightgray 1px solid;
+    text-align: center;
+   
+    
+}
+
+.header{
+    height:50px;
+}
+
+h1 {
+    text-align: center;
+    color: lightgray;
+}
+
+.btn {
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+   
+}
+
+
+
 
 
