@@ -32,7 +32,7 @@
 a {
     text-decoration: none;
     text-transform: uppercase;
-    color: black;
+    color: #000000;
     padding:5px;
     font-size: 20px;
 }
@@ -49,7 +49,6 @@ h1 {
     padding: 0.1em;
     margin-right:0.5em;
     
-   
 }
 
 .main-section {
@@ -58,9 +57,6 @@ h1 {
    height: 400px;
    margin: 50px;
 
-  
-
-   
 }
    
 .courses-cards {
@@ -72,11 +68,7 @@ h1 {
     border: lightgray 1px solid;
     text-align: center;
    
-    
 }
-
-
-
 
 .btn {
     width: 100px;
@@ -86,20 +78,13 @@ h1 {
 }
 
 div.hero-section {
-    background-image: url(./assets/social-icon/windsurf_foil.jpeg);
+    background-image: url(./assets/photo-1619507845851-1ada1136b795.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 40em;
+    height: 45em;
     width: 100%;
 }
 
-.windsurf-header-section, .kitesurf-header-section, .surf-header-section {
-    display: flex;
-    justify-content: space-around;
-    align-content: center;
-    align-items: center;
-    height: 150px;
-}
 
 h2 {
     font-size: 85px;
@@ -112,9 +97,35 @@ h2 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 1px red solid;
-    height: 40em;
+    height: 45em;
 }
+
+.windsurf-info-section {
+    background-image: url(./assets/pexels-photo-2762991.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45em;
+    width: 100%;
+}
+
+.kite-info-section {
+    background-image: url(./assets/photo-1627906129267-c53727b797ba.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45em;
+    width: 100%;
+    
+}
+
+.surf-info-section {
+    background-image: url(./assets/photo-1515541324332-7dd0c37426e0.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45em;
+    width: 100%;
+    
+}
+
 
 .surfbtn {
     font-size: 18px;
