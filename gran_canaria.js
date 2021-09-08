@@ -1,6 +1,7 @@
 const menuBtn = document.querySelector('.menu-btn');
+const dropdown = document.querySelector('#dropdown');
 let menuOpen = false;
-menuBtn.addEventListener('click', () => {
+menuBtn.addEventListener('click', (event) => {
     if(!menuOpen) {
         menuBtn.classList.add('open');
         menuOpen = true;
@@ -8,4 +9,6 @@ menuBtn.addEventListener('click', () => {
         menuBtn.classList.remove('open');
         menuOpen = false;
     }
+    
 });
+
