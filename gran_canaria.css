@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700;900&display=swap');
 * {
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
     margin:0;
     padding:0;
 }
@@ -9,9 +10,8 @@
     display: flex;
     background-color: #000000;
     justify-content: flex-end;
-    
-
 }
+
 .menu-btn {
     position: relative;
     display: flex;
@@ -26,7 +26,7 @@
 .menu-button-burger {
    width: 50px;
    height: 6px;
-   background: #fff;
+   background: #009dc4;
    border-radius: 5px;
    transition: all 0.5s ease-in-out;
 }
@@ -38,7 +38,7 @@
     position:absolute;
     width: 50px;
     height: 6px;
-    background: #fff;
+    background: #009dc4;
     border-radius: 5px;
     transition: all 0.5s ease-in-out;
 }
@@ -82,11 +82,16 @@
 }
 
 .dropdown-content a {
-    color: white;
+    color: #009dc4;
     text-decoration: none;
     padding: 12px 16px;
     display: block;
     
+}
+
+.dropdown-content a:hover {
+    color:#fff;
+    text-decoration: underline;
 }
 
 .show {
@@ -98,6 +103,18 @@
     justify-content: space-evenly;
     font-family: 'Roboto', sans-serif;
 }
+
+.navigation-headings {
+    font-size: 18px;
+    margin: 14px;
+}
+
+ul {
+    list-style-type: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
 
 
 
