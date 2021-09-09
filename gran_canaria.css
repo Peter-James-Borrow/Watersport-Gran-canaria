@@ -96,6 +96,7 @@
 .navigation-container {
     display: flex;
     justify-content: space-evenly;
+    font-family: 'Roboto', sans-serif;
 }
 
 
