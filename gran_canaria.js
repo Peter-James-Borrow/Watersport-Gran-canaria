@@ -1,7 +1,7 @@
 const menuBtn = document.querySelector('.menu-btn');
-const dropdown = document.querySelector('#dropdown');
 let menuOpen = false;
-menuBtn.addEventListener('click', (event) => {
+menuBtn.addEventListener('click', () => {
+    document.getElementById('dropdown').classList.toggle('show')
     if(!menuOpen) {
         menuBtn.classList.add('open');
         menuOpen = true;
