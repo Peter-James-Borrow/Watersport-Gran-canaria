@@ -132,7 +132,7 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 11em;
+    height: 8em;
 }
 
 .courses-cards-container {
@@ -160,6 +160,30 @@ ul {
     padding: 10px;
     line-height: 24px;
     width: 22.5%;
+}
+
+.cards:hover {
+    animation: shake 0.82s;
+    animation-iteration-count:initial;
+    
+}
+
+@keyframes shake {
+    10%, 90% {
+        transform: translate3d(-1px, 0, 0);
+    }
+
+    20%, 80% {
+        transform: translate3d(2px, 0, 0);
+    }
+
+    30%, 50%, 70% {
+        transform: translate3d(-4px, 0, 0);
+    }
+
+    40%, 60% {
+        transform: translate3d(4px, 0, 0);
+    }
 }
 
 .courses-image {
@@ -237,6 +261,83 @@ h2 {
     border:#009dc4 4px solid;
     color: #009dc4;
 }
+
+.contact-us {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 8em;
+    
+}
+
+.contact-header {
+    font-size: 32px;
+
+}
+
+.contact-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45em;
+    background-color:#d6dbe0;
+    
+  }
+  
+  .contact-form {
+      background-color: #009dc4;
+      border-radius: 10px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      height: 35em;
+      padding: 20px;
+      width: 80%;
+  }
+  
+  #name, #lastname, #email {
+      margin: 8px;
+  }
+  
+  .label {
+      margin: 10px;
+      color: #FFFFFF;
+  }
+  
+  #submit-button {
+      border-radius: 10px;
+      border: none;
+      width: 30em;
+      margin: 8px;
+      height: 40px;
+      font-size: 18px;
+      font-weight:600;
+  }
+  
+  #submit-button:hover {
+      border: #009dc4 1px solid;
+      color:#009dc4;
+      
+  }
+   
+  input[type=text], input[type=email] {
+      border: red 2px solid; 
+      border-radius: 5px;
+      width: 100%;
+      height: 3em;
+      padding: 8px;
+  }
+
+  input:hover {
+      border: green 2px solid;
+  }
+      
+  
+  #message {
+      margin: 4px;
+      border-radius: 5px;
+      
+  }
 /*footer styling*/
  .footer-container {
     display: flex;
@@ -276,66 +377,6 @@ li {
     margin: 30px;
     margin-left: 0;
     list-style-type: none;
-}
-
-.contact-form-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 45em;
-  background-color: #fff;
-  
-}
-
-.contact-form {
-    background-color: #009dc4;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    border: white 1px solid;
-    height: 35em;
-    padding: 20px;
-    width: 80%;
-}
-
-#name, #lastname, #email {
-    margin: 10px;
-}
-
-.label {
-    margin: 10px;
-    color: #FFFFFF;
-}
-
-#submit-button {
-    border-radius: 10px;
-    border: none;
-    width: 30em;
-    margin: 8px;
-    height: 40px;
-    font-size: 18px;
-    font-weight:600;
-}
-
-#submit-button:hover {
-    border: #009dc4 1px solid;
-    color:#009dc4;
-}
- 
-input[type=text], input[type=email] {
-    border: none; 
-    border-radius: 5px;
-    width: 100%;
-    height: 3em;
-    padding: 8px;
-}
-    
-
-#message {
-    margin: 4px;
-    border-radius: 5px;
-    
 }
 
 .copywrite {
