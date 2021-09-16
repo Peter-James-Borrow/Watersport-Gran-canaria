@@ -1,3 +1,5 @@
+
+
 const menuBtn = document.querySelector('.menu-btn');
 let menuOpen = false;
 menuBtn.addEventListener('click', () => {
@@ -26,4 +28,55 @@ function showSlides() {
     setTimeout(showSlides, 4000);
     }
 
-
+const granCaneriaHeading = document.querySelectorAll('.granCaneria-heading').forEach(item => {
+    let divOpen = false;
+    item.addEventListener('click', () => {
+        document.getElementById('subdrop-granCaneria').classList.toggle('sub-content')
+        if(!divOpen) {
+            item.classList.add('open')
+            divOpen = true;
+        } else {
+            item.classList.remove('open');
+            divOpen = false;
+        }
+    });
+});
+const tenerifeHeading = document.querySelectorAll('.tenerife-heading').forEach(item => {
+    let divOpen = false;
+    item.addEventListener('click', () => {
+        document.getElementById('subdrop-tenerife').classList.toggle('sub-content')
+        if(!divOpen) {
+            item.classList.add('open')
+            divOpen = true;
+        } else {
+            item.classList.remove('open');
+            divOpen = false;
+        }
+    });
+});
+const fuerteventuraHeading = document.querySelectorAll('.fuerteventura-heading').forEach(item => {
+    let divOpen = false;
+    item.addEventListener('click', () => {
+        document.getElementById('subdrop-fuerteventura').classList.toggle('sub-content')
+        if(!divOpen) {
+            item.classList.add('open')
+            divOpen = true;
+        } else {
+            item.classList.remove('open');
+            divOpen = false;
+        }
+    });
+});
+const lanzaroteHeading = document.querySelectorAll('.lanzarote-heading').forEach(item => {
+    let divOpen = false;
+    item.addEventListener('click', () => {
+        document.getElementById('subdrop-lanzarote').classList.toggle('sub-content')
+        if(!divOpen) {
+            item.classList.add('open')
+            divOpen = true;
+        } else {
+            item.classList.remove('open');
+            divOpen = false;
+        }
+    });
+});
