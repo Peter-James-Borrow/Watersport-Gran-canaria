@@ -28,55 +28,59 @@ function showSlides() {
     setTimeout(showSlides, 4000);
     }
 
-const granCaneriaHeading = document.querySelectorAll('.granCaneria-heading').forEach(item => {
+const granCaneriaHeading = document.querySelector('.granCaneria-heading')
     let divOpen = false;
-    item.addEventListener('click', () => {
+    granCaneriaHeading.addEventListener('click', () => {
         document.getElementById('subdrop-granCaneria').classList.toggle('sub-content')
         if(!divOpen) {
-            item.classList.add('open')
+            granCaneriaHeading.classList.add('open')
             divOpen = true;
         } else {
-            item.classList.remove('open');
+            granCaneriaHeading.classList.remove('open');
             divOpen = false;
         }
     });
-});
-const tenerifeHeading = document.querySelectorAll('.tenerife-heading').forEach(item => {
-    let divOpen = false;
-    item.addEventListener('click', () => {
+
+
+const tenerifeHeading = document.querySelector('.tenerife-heading')
+    tenerifeHeading.addEventListener('click', () => {
+        let divOpen = false;
         document.getElementById('subdrop-tenerife').classList.toggle('sub-content')
         if(!divOpen) {
-            item.classList.add('open')
+            tenerifeHeading.classList.add('open')
             divOpen = true;
         } else {
-            item.classList.remove('open');
+            tenerifeHeading.classList.remove('open');
             divOpen = false;
         }
     });
-});
-const fuerteventuraHeading = document.querySelectorAll('.fuerteventura-heading').forEach(item => {
-    let divOpen = false;
-    item.addEventListener('click', () => {
+
+const fuerteventuraHeading = document.querySelector('.fuerteventura-heading')
+
+    fuerteventuraHeading.addEventListener('click', () => {
+        let divOpen = false;
         document.getElementById('subdrop-fuerteventura').classList.toggle('sub-content')
         if(!divOpen) {
-            item.classList.add('open')
+            fuerteventuraHeading.classList.add('open')
             divOpen = true;
         } else {
-            item.classList.remove('open');
+            fuerteventuraHeading.classList.remove('open');
             divOpen = false;
         }
     });
-});
-const lanzaroteHeading = document.querySelectorAll('.lanzarote-heading').forEach(item => {
-    let divOpen = false;
-    item.addEventListener('click', () => {
+
+const lanzaroteHeading = document.querySelector('.lanzarote-heading')
+    lanzaroteHeading.addEventListener('click', () => {
+        let divOpen = false;
         document.getElementById('subdrop-lanzarote').classList.toggle('sub-content')
         if(!divOpen) {
-            item.classList.add('open')
+            lanzaroteHeading.classList.add('open')
             divOpen = true;
         } else {
-            item.classList.remove('open');
+            lanzaroteHeading.classList.remove('open');
             divOpen = false;
         }
     });
-});
+
+    
+
