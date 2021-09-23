@@ -5,203 +5,62 @@
     margin: 0;
     padding: 0;
 }
-
-.logo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 50px;
-    width:100px;
-    background-color: #FFFFFF;
-    border: 6px solid #009dc4;
-    margin: 60px;
-}
-
-/*navigation styles*/
-.navigation {
-    display: flex;
-    background-color: #000000;
-    border-bottom:#009dc4 2px solid;
-    justify-content: space-between;
-    align-items: center;
-    height: 6em;
-}
-
-.menu-btn {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 80px;
-    height: 80px;
-    cursor: pointer;
-    transition: all 0.5s ease-in-out;
-}
-
-.menu-button-burger {
-   width: 50px;
-   height: 6px;
-   background: #009dc4;
-   border-radius: 5px;
-   transition: all 0.5s ease-in-out;
-}
-
-
-.menu-button-burger::before,
-.menu-button-burger::after {
-    content: "";
-    position:absolute;
-    width: 50px;
-    height: 6px;
-    background: #009dc4;
-    border-radius: 5px;
-    transition: all 0.5s ease-in-out;
-}
-
-.menu-button-burger::before {
-    transform: translateY(-16px);
-}
-
-.menu-button-button-burger::after {
-    transform: translateY(16px);
-}
-
-.menu-btn.open .menu-button-burger{
-    transform: translateX(-50px);
-    background: transparent;
-}
-
-.menu-btn.open .menu-button-burger::before {
-    transform: rotate(45deg) translate(35px, -35px);
-}
-
-.menu-btn.open .menu-button-burger::after {
-    transform: rotate(-45deg) translate(35px, 35px);
-}
-
-.dropdown-container {
-    display: flex;
-    justify-content: flex-end;
-    
-}
-
-.dropdown-content {
-    border-radius: 0px 0px 0px 15px;
-    display: none;
-    position:absolute;
-    height: fit-content;
-    background-color: #000000;
-    border-top: 1px #009dc4 solid;
-    color:white;
-    width: 60%;
-    padding: 20px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-}
-
-.dropdown-content a {
-    color: #009dc4;
-    text-decoration: none;
-    display: block;
-    
-}
-
-.dropdown-content a:hover {
-    color:#fff;
-}
-
-.show {
-    display: block;
-}
-
-.navigation-container {
-    display: flex;
-    justify-content: space-evenly;
-    font-family: 'Roboto', sans-serif;
-}
-
-
-ul {
-    list-style-type: none;
-    font-size: 16px;
-    font-weight: bold;
-}
-
-.sub-content {
-    display: none;
-}
-
-.footer-container {
-    display: flex;
-    justify-content: space-evenly;
-    width: 100%;
-    height: 40em;
-    background-color: #009dc4;
-    color:#FFFFFF
-} 
-
-.footer-heading {
-    margin-top: 5em;
-    font-size: 22px;
-    font-weight: 400;
-    text-decoration: #FFFFFF underline;
-}
-
-.social-footer-heading, .links-footer-heading {
-    margin-top: 5em;
-    margin-bottom: 15px;
-    font-size: 22px;
-    text-decoration: #FFFFFF underline;
-    font-weight: 400;
-}
-
-.social, .links {
+ 
+.fuerte-windsurfing-container {
+    margin: 80px;
     display: flex;
     flex-direction: column;
 }
 
-#social-icon, #world-wide-web-icon {
+.fuerte-windsurfing-disc {
+    display: flex;
+    border: 1px solid #d6dbe0;
+    height: 350px;
+    width: 80%;
+}
+
+.fuerte-windsurf-image {
+    border: #d6dbe0 solid 1px;
+    height: 325px;
+    width: 300px;
     margin: 10px;
-    width: 35px;
-}
-
-#social-icon:hover, #world-wide-web-icon:hover {
-    animation: shake 0.82s;
-    animation-iteration-count:initial;
     
 }
 
-@keyframes shake {
-    10%, 90% {
-        transform: translate3d(-1px, 0, 0);
-    }
-
-    20%, 80% {
-        transform: translate3d(2px, 0, 0);
-    }
-
-    30%, 50%, 70% {
-        transform: translate3d(-4px, 0, 0);
-    }
-
-    40%, 60% {
-        transform: translate3d(4px, 0, 0);
-    }
-}
-
-li {
-    margin: 30px;
-    margin-left: 0;
-    list-style-type: none;
-}
-
-.copywrite {
-    display:flex;
-    border-top: 1px #009dc4 solid; 
-    justify-content: space-between;
+.ws-fuerte-cards-container {
+    display: flex;
+    position: relative;
+    border: 1px solid #d6dbe0;
+    border-radius: 20px;
     align-items: center;
-    padding: 10px;
-    margin: 20px;
-    height: 5em;
+    flex-direction: column;
+    margin: 50px;
 }
+
+.ws-fuerte-cards1, .ws-fuerte-cards2, .ws-fuerte-cards3, .ws-fuerte-cards4, .ws-fuerte-cards5, .ws-fuerte-cards6, .ws-fuerte-cards7, .ws-fuerte-cards8, .ws-fuerte-cards9 {
+    display: flex;
+    border: 1px solid #d6dbe0;
+    margin: 2em;
+    padding: 1em;
+    height: 330px;
+    width: 90%;
+}
+
+
+.ws-fuerte-card-image1 {
+      height: 300px;
+      width: 300px;
+      margin: 290px;
+      position: absolute;
+      top: 5px;
+      left: -180px;
     
+    }
+    
+.ws-fuerte-card-image2 {
+    height: 300px;
+    width: 300px;  
+    z-index: 1;      
+
+}
+   
