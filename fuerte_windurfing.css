@@ -7,9 +7,14 @@
 }
  
 .fuerte-windsurfing-container {
-    margin: 80px;
     display: flex;
     flex-direction: column;
+    margin: 80px;
+}
+
+.fuerte-windsurfing-disc-container {
+    display: flex;
+    justify-content: center;
 }
 
 .fuerte-windsurfing-disc {
@@ -29,16 +34,15 @@
 
 .ws-fuerte-cards-container {
     display: flex;
+    flex-direction: column;
+    align-items: center;
     position: relative;
     border: 1px solid #d6dbe0;
     border-radius: 20px;
-    align-items: center;
-    flex-direction: column;
     margin: 50px;
 }
 
 .ws-fuerte-cards1, .ws-fuerte-cards2, .ws-fuerte-cards3, .ws-fuerte-cards4, .ws-fuerte-cards5, .ws-fuerte-cards6, .ws-fuerte-cards7, .ws-fuerte-cards8, .ws-fuerte-cards9 {
-    display: flex;
     border: 1px solid #d6dbe0;
     margin: 2em;
     padding: 1em;
