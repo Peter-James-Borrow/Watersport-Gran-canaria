@@ -42,7 +42,7 @@
     font-size: 26px;
 }
 
-.course-heading {
+.center-heading {
     display: flex;
     color: #009dc4;
     justify-content: center;
@@ -51,7 +51,7 @@
     height: 8em;
 }
 
-.courses-cards-container {
+.center-cards-container {
     display: flex;
     background-color:#d6dbe0;
     justify-content: space-evenly;
@@ -61,7 +61,7 @@
     text-align: center;
 }
 
-.course-header {
+.center-header {
     font-size: 24px;
     font-weight: 500;
     margin: 15px;
@@ -79,17 +79,18 @@
 }
 
 
-.courses-image {
+.center-image {
     width: 300px;
     border-radius: 15px;
     
 }
 
-.course-buttons {
+.center-buttons {
     border-radius: 10px;
     border: #FFFFFF 2px solid;
     background-color: #009dc4;
     color: #FFFFFF;
+    cursor: pointer;
     font-size: 16px;
     font-weight: 500;
     height: 40px;
@@ -98,7 +99,7 @@
     margin: 20px;
 }
 
-.course-buttons:hover {
+.center-buttons:hover {
     background-color: #00a9cc;
 }
 
