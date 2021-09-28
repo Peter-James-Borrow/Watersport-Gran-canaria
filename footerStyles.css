@@ -28,10 +28,10 @@
     flex-direction: column;
 }
 
-#social-icon, #world-wide-web-icon {
-    margin: 10px;
-    width: 35px;
-}
+ #world-wide-web-icon {
+     margin: 10px;
+ }
+
 
 #social-icon:hover, #world-wide-web-icon:hover {
     animation: shake 0.82s;
