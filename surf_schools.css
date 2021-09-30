@@ -6,11 +6,12 @@
     margin: 0;
     padding: 0;
 }
- 
+
 .fuerte-windsurfing-container {
     display: flex;
     flex-direction: column;
 }
+
 
 .fuerte-windsurfing-disc-container {
     display: flex;
@@ -21,10 +22,9 @@
     background-image: url(assets/fuerteventura-banner.jpeg); 
     background-repeat: no-repeat;
     background-size: cover;
-    
 }
 
-.center-heading {
+.surfschool-heading {
     color: #fff;
     opacity: 0.6;
     font-size: 95px;
@@ -34,6 +34,24 @@
     margin: 30px;
     padding: 20px;
 }
+
+.section-description {
+    text-align: center;
+    margin: 2em;
+    padding: 1em;
+    
+}
+
+.fuerte_description1, .fuerte_description2 {
+    color: #656565;
+    line-height: 40px;
+    word-spacing: 3px;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
 
 .fuerte-windsurf-image {
     border: #d6dbe0 solid 1px;
@@ -48,7 +66,7 @@
     flex-direction: column;
     align-items: center;
     position: relative;
-    margin: 50px;
+    
 }
 
 .ws-fuerte-cards1, .ws-fuerte-cards2, .ws-fuerte-cards3, .ws-fuerte-cards4, .ws-fuerte-cards5, .ws-fuerte-cards6, .ws-fuerte-cards7, .ws-fuerte-cards8, .ws-fuerte-cards9, .ws-fuerte-cards10, .ws-fuerte-cards11, .ws-fuerte-cards12 {
@@ -56,7 +74,7 @@
     box-shadow: #d6dbe0 1px 1px 5px 1px;
     margin: 1em;
     padding: 1em;
-    height: 350px;
+    height: 375px;
     width: 90%;
 }
     
@@ -66,15 +84,19 @@
     width: 300px;     
 }
 
-.center-info-flagbeach, .center-info-pointbreak, .center-info-venturasurf, .center-info-lineup, .center-info-witchcraft, .center-info-ionclub-cc, .center-info-ionclub-rdp, .center-info-reneegli, .center-info-matabay, .center-info-prowind, .center-info-rapa-nui, .center-info-homegrown, .center-info-nalusurf {
+
+.surfschool-info-flagbeach, .surfschool-info-pointbreak, .surfschool-info-venturasurf, .surfschool-info-lineup, .surfschool-info-witchcraft, .surfschool-info-ionclub-cc, .surfschool-info-ionclub-rdp, .surfschool-info-reneegli, .surfschool-info-matabay, .surfschool-info-prowind, .surfschool-info-rapa-nui, .surfschool-info-homegrown, .surfschool-info-nalusurf {
     margin-left: 15px;
+    color: #656565;
     padding: 10px;
     font-family: 'Roboto', sans-serif;
-    font-size: 18px;
+    font-size: 20px;
+    font-weight: 500;
     line-height: 27px;
+    
 }
 
-.center-btn {
+.surfschool-btn {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -100,7 +122,7 @@
     background: #ee0000
 }
 
-.center-links {
+.surfschool-links {
     display:flex;
     width: 100%;
     color:#fff;
@@ -109,7 +131,7 @@
   
 }
 
-.center-links:hover {
+.surfschool-links:hover {
     opacity: 0.6;
 }
 
