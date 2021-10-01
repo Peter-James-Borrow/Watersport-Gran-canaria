@@ -20,6 +20,7 @@
 /*navigation styles*/
 .navigation {
     display: flex;
+    width: 100%;
     background-color: #000000;
     border-bottom:#009dc4 2px solid;
     justify-content: space-between;
