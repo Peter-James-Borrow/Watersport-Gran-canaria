@@ -10,8 +10,8 @@
 .fuerte-windsurfing-container {
     display: flex;
     flex-direction: column;
+    
 }
-
 
 .fuerte-windsurfing-disc-container {
     display: flex;
@@ -22,6 +22,7 @@
     background-image: url(assets/fuerteventura-banner.jpeg); 
     background-repeat: no-repeat;
     background-size: cover;
+
 }
 
 .surfschool-heading {
@@ -51,7 +52,6 @@
     font-family: 'Roboto', sans-serif;
     
 }
-
 
 .fuerte-windsurf-image {
     border: #d6dbe0 solid 1px;
@@ -83,7 +83,6 @@
     height: 300px;
     width: 300px;     
 }
-
 
 .surfschool-info-flagbeach, .surfschool-info-pointbreak, .surfschool-info-venturasurf, .surfschool-info-lineup, .surfschool-info-witchcraft, .surfschool-info-ionclub-cc, .surfschool-info-ionclub-rdp, .surfschool-info-reneegli, .surfschool-info-matabay, .surfschool-info-prowind, .surfschool-info-rapa-nui, .surfschool-info-homegrown, .surfschool-info-nalusurf {
     margin-left: 15px;
