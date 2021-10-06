@@ -18,7 +18,7 @@
     height: 400px;
     justify-content: flex-end;
     align-items: flex-end;
-    background-image: url(assets/); 
+    background-image: url(assets/ocean-waves.jpeg); 
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -72,7 +72,7 @@
     width: 300px;     
 }
 
-.surfschool-info-flagbeach, .surfschool-info-pointbreak, .surfschool-info-venturasurf, .surfschool-info-lineup, .surfschool-info-witchcraft, .surfschool-info-ionclub-cc, .surfschool-info-ionclub-rdp, .surfschool-info-reneegli, .surfschool-info-matabay, .surfschool-info-prowind, .surfschool-info-rapa-nui, .surfschool-info-homegrown, .surfschool-info-nalusurf {
+.surfschool-info-pozowinds, .surfschool-info-ipws, .surfschool-info-dunkerwindsurf, .surfschool-info-boarders-center, .surfschool-info-cutre, .surfschool-info-oceanside, .surfschool-info-california-surf, .surfschool-info-buen-surf, .surfschool-info-mojo-surf, .surfschool-info-wavelovers, .surfschool-info-dreamsea, .surfschool-info-surf-maspalomas, .surfschool-info-canarywave {
     margin-left: 15px;
     color: #656565;
     padding: 10px;
