@@ -12,15 +12,15 @@ menuBtn.addEventListener('click', () => {
     
 });
 
-const granCaneriaHeading = document.querySelector('.granCaneria-heading')
+const granCanariaHeading = document.querySelector('.granCanaria-heading')
     let divOpen = false;
-    granCaneriaHeading.addEventListener('click', () => {
-        document.getElementById('subdrop-granCaneria').classList.toggle('sub-content')
+    granCanariaHeading.addEventListener('click', () => {
+        document.getElementById('subdrop-granCanaria').classList.toggle('sub-content')
         if(!divOpen) {
-            granCaneriaHeading.classList.add('open')
+            granCanariaHeading.classList.add('open')
             divOpen = true;
         } else {
-            granCaneriaHeading.classList.remove('open');
+            granCanariaHeading.classList.remove('open');
             divOpen = false;
         }
     });
