@@ -9,7 +9,7 @@
 .navigation {
     display: flex;
     justify-content: flex-end;
-    height: 100px;
+    height: 9em;
     border-bottom: #009dc4 1px solid;
 }
 
@@ -62,8 +62,8 @@ a {
 
 .about-this-site {
     margin-left: 2em;
-    padding: 20px;
     margin-right: 2em;
+    height: 45em;
 }
 
 .about-site-header, .header {
